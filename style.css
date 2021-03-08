@@ -4,3 +4,21 @@ body{
 header .container-fluid{
     max-width: 1300px;
 }
+header img{
+    width: 80px;
+}
+header{
+    background-color: #e0e0e0;
+    font-weight: 500;
+}
+.banner{
+    height: 70vh;
+    background: url('./images/hero-image.jpg')  no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    padding: 150px 0;
+}
+.banner .container-fluid{
+    max-width: 1300px;
+}
