@@ -1,0 +1,6 @@
+body{
+    font-family: Spartan;
+}
+header .container-fluid{
+    max-width: 1300px;
+}
