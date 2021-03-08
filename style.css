@@ -16,18 +16,30 @@ header{
 }
 .banner{
     height: 70vh;
+    background: url('./images/Template Day 33 part 1.jpg') top right no-repeat;
+    background-color: #f6f9fc;
 }
-/* .banner-div{
-    top: 0;
-    right: -50px;
-} */
-.banner-div img{
-    border-radius: 50%;
-}
+
 
 .banner-content{
     padding: 150px 0;
 }
 .banner .container-fluid{
     max-width: 1300px;
+}
+.menu ul li a{
+    position: relative;
+}
+.menu ul li a::before{
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 17%;
+    height: 8%;
+    width: 0;
+    background-color: blue;
+    transition: .3s;
+}
+.menu ul li a:hover::before{
+    width: 70%;
 }
