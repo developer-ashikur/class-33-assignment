@@ -4,6 +4,9 @@ body{
 header .container-fluid{
     max-width: 1300px;
 }
+img{
+    max-width: 100%;
+}
 header img{
     width: 80px;
 }
@@ -13,9 +16,15 @@ header{
 }
 .banner{
     height: 70vh;
-    background: url('./images/hero-image.jpg')  no-repeat;
-    background-size: cover;
 }
+/* .banner-div{
+    top: 0;
+    right: -50px;
+} */
+.banner-div img{
+    border-radius: 50%;
+}
+
 .banner-content{
     padding: 150px 0;
 }
