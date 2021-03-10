@@ -168,6 +168,9 @@ img {
     max-width: 1480px;
 }
 /* services */
+.services{
+    background: url(./assets/service-patern.png) no-repeat left bottom;
+}
 .service-content h5{
     color: #6486f0;
 }
