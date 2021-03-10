@@ -169,7 +169,7 @@ img {
 }
 /* services */
 .services{
-    background: url(./assets/service-patern.png) no-repeat left bottom;
+    background: url(./assets/service-patern.png) no-repeat 15% bottom;
 }
 .service-content h5{
     color: #6486f0;
