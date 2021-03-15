@@ -279,3 +279,25 @@ img {
    }
 
 }
+.colored-heading{
+    color: #6486f0;
+}
+.price-btn{
+    width: 60%;
+    background-color: #ddd;
+}
+.pricing-banner{
+    background: url(./assets/free-bg.jpg) center no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    background-blend-mode: overlay;
+    background-color: rgba(2, 65, 255, .9);
+}
+.banner-btn{
+    background-color: white;
+    color: #3763eb;
+    padding: 10px 40px;
+}
+.banner-underline{
+    background-color: white;
+}
