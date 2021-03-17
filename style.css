@@ -301,3 +301,10 @@ img {
 .banner-underline{
     background-color: white;
 }
+.newsletter{
+    background-color: #f6f9fc;
+}
+.clients img:hover{
+    background-blend-mode: overlay;
+    background-color: #f6f9fc;
+}
