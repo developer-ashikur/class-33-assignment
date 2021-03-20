@@ -308,3 +308,29 @@ img {
     background-blend-mode: overlay;
     background-color: #f6f9fc;
 }
+footer{
+    background-color: #081828;
+}
+.sub-footer{
+    border-top: 1px solid #444;
+}
+.sub-footer p{
+    margin-bottom: 0;
+}
+.footer-menu h5{
+    border-left: 4px solid #0a38ee;
+    padding-left: 10px;
+}
+.footer-weiget ul li{
+    margin-right: 15px;
+}
+.card-pill{
+    background-color: #3763eb;
+    width: 60%;
+    position: absolute;
+    bottom: 150px;
+    right: 5px;
+}
+.card-pill p{
+    margin-bottom: 0;
+}
